@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d94e1f5067.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- ******************************************* navbar Start ********************************* -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo 4.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Java Developer/Web Designer</p>
+                <h2>Hi, I'm <span>Chaitrali</span> <br>Gavali From India</h2>
+            </div>
+        </div>
+    </div>
+<!-- ********************************* Navbar end ********************************************** -->
+
+<!-- *********************************** About ************************************************** -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <!-- <img src="images/4065629-uhd_2160_4096_25fps.mp4"  height="500px"> -->
+                    <video src="images/7252989-hd_1080_1920_25fps.mp4" autoplay ></video>
+                </div>
+                <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>My technical expertise spans across Java, Hibernate, Spring Boot, object-oriented programming (OOPs),
+                             C++, HTML, and CSS. I have successfully contributed to projects such as 
+                             "Book Shop Management System using Java" and am currently engaged in developing a sophisticated 
+                             "Library Management System leveraging Hibernate."</p>
+
+                        <p>What drives me professionally is my passion for technology, 
+                            my keen eye for detail, and my insatiable appetite for learning. 
+                            I am constantly seeking to expand my knowledge and master new technologies to stay
+                             at the forefront of software development trends.
+                              I invite you to explore my portfolio to gain deeper insights into my projects and skills.
+                               I am thrilled at the prospect of connecting with like-minded professionals
+                                and making meaningful contributions to the realm of software development.</p>
+
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                                <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                                <p class="tab-links" onclick="opentab('Education')">Education</p>
+                            </div>
+                            <div>
+                                <div class="tab-contents active-tab" id="skills">
+                                    <ul>
+                                        <li><span>Java Developer</span><br> Building Android/iOS apps</li>
+                                        <li><span>Web Developer</span><br> Web App Development</li>
+                                        <li><span>UI/UX</span><br>Designing web/App interfaces </li>
+                                    </ul>
+                                </div>
+                                <div class="tab-contents" id="Experience">
+                                    <ul>
+                                        <li><span>Java Programming</span><br> Centum Foundation</li>
+                                        
+                                    </ul>
+                                </div>
+                                <div class="tab-contents" id="Education">
+                                    <ul>
+                                        <li><span>2020-2023</span><br> Bachelor of Engineering in Computer Engineering</li>
+                                        <li><span>2018-2020</span><br> Diploma In Computer Engineering</li>
+                                        <li><span>2017</span><br> SSC </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ************************ end about ************************************************************** -->
+
+    <!-- ************************************* start services *********************************************** -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>web Design</h2>
+                    <p>As a budding professional in the field of full-stack Java development, I bring a fresh perspective to web design. With a solid academic foundation, including a CGPA of 8.35 from Savitribai Phule Pune University, I am equipped to create visually appealing and functional websites using the latest technologies.</p>                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>My journey as a full-stack Java developer has honed my eye for user interface and experience design. Leveraging my academic achievements and practical experience, I strive to craft intuitive and user-centric designs that enhance the overall usability and appeal of digital products.</p>                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>With a strong academic background and a passion for software development, I am poised to delve into app design. My skills in Java, coupled with a keen understanding of user requirements, enable me to conceptualize and create engaging and functional applications for various platforms.</p>                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- ************************************* end services *************************************************** -->
+
+<!-- ***************************************** start portfolio ********************************************** -->
+
+    <div id="portfolio">
+        <div class="container">
+      
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/book3.jpg" >
+                    <div class="layer">
+                        <h3>Book Shop System</h3>
+                        <p>Designed and developed a comprehensive Book Shop System, leveraging Java and related technologies. This system streamlines inventory management, sales tracking, and customer interactions, enhancing operational efficiency for bookstores.</p>
+                        <a href="https://github.com/ChaitraliGavali"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/exam2.jpg">
+                    <div class="layer">
+                        <h3>Online Exam Proctoring System</h3><br>
+                        <p>Contributed to the creation of an Online Exam Proctoring System, incorporating Java and relevant tools. This system ensures secure and fair online exams by implementing advanced proctoring features, benefiting educational institutions and students alike.</p>
+                        <a href="https://github.com/ChaitraliGavali"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/library3.jpg">
+                    <div class="layer">
+                        <h3>Library Management System</h3><br>
+                        <p>Collaborated on the development of a Library Management System using Java and associated frameworks. This system facilitates efficient cataloging, borrowing, and tracking of library resources, optimizing library operations and user experiences.</p>
+                        <a href="https://github.com/ChaitraliGavali"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn" >See more</a>
+        </div>
+        
+    </div>
+
+<!-- ****************************************** end portfolio ********************************************* -->
+
+<!-- ********************************************* contact ******************************************************** -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i>gavalichaitrali1572@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>9322359672</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/chaitrali-gavali/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/ChaitraliGavali"><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                        <a href="images/Chaitrali_Gavali_Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © CG.  <i class="fa-sharp fa-solid fa-heart"></i> All rights reserved.</p>
+        </div>
+    </div>
+
+
+<!-- ****************************************** javascript ************************************************** -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");
+            }
+
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab");
+            }
+
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+         
+        function openmenu()
+        {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu()
+        {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyfCAtAKVpnfVmCVGtvxu3h0Z3LFQuoF7MGZloPzxHZBzsMPQoWcQZON3ywn8WjIs_x/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully."
+            setTimeout(function()
+        {
+            msg.innerHTML = ""   
+        }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- https://www.youtube.com/watch?v=0YFrGy_mzjY
+ -->
